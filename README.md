@@ -1,7 +1,7 @@
 # ServerNodeJs
 Projet d'implementation d'un serveur HTTP avec NodeJS, Express et une base de donnée MySql, ayant pour but de pouvoir effectuer les opérations CRUD (Create Retrieve Update Delete).
 
-#Installation
+# Installation
 1-- Il vous faudra avant tout un serveur de bases de données installé sur votre machine: MAMP pour macOS, LAMP pour Linux, WAMP pour Windows, et un editeur de texte(VSCode par exemple).
 2- Appuyer sur le bouton en vert et copier le lien pour cloner le projet.
 3- Se positionner sur le repertoire ou vous voulez cloner le dépot,(ex: mkdir NOMDUDOSSIER , cd NOMDUDOSSIER) ensuite git clone LIENCOPIÉ
