@@ -14,4 +14,4 @@ Projet d'implementation d'un serveur HTTP avec NodeJS, Express et une base de do
 
 6) Une fois la base de données ok, rendez vous sur votre editeur et faites npm init, npm i dotenv.
 
-7) enfin nodemon server.js et allez sur  votre navigateur et saisissez localhost:5000 et naviguez !
+7) enfin ##npm start et allez sur  votre navigateur et saisissez localhost:5000 et naviguez !
