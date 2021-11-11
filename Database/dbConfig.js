@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
   port: process.env.PORT,
   user: 'root',
   password: 'root',
-  database: process.env.DATABASE,
+  database: 'BDD_NodeServer',
 });
 
 connection.connect((err) => {
