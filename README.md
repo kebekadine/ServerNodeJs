@@ -23,7 +23,7 @@ Script Nodejs qui parse le flux des articles d'un media et ecrit les données da
 # Installation 
 1- Faire un cd ParserNodeJs
 
-5- ouvrez le terminal de votre editeur et (n'oubliez pas de vous positionnez sur le dossier ParserFluxNode ) et faites un npm init taper sur la touche entrée jusqu'à la fin de l'installation, ensuite npm i rss-parser et appuyer sur entrée
+2- faites un npm init taper sur la touche entrée jusqu'à la fin de l'installation, ensuite npm i rss-parser et appuyer sur entrée
 
 
 6) faites npm start, normalement un fichier nommé fichier.csv a été crée au même niveau que le fichier server.js.
