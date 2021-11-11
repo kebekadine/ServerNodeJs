@@ -1,0 +1,29 @@
+<%- include('header'); -%>
+    <h1>
+        Modification d'un client
+    </h1>
+    <form action="/updateUser" method="POST">
+        <p>
+            <label for="ide">Identifiant du client à modifier</label>
+        </p>
+        <p>
+            <input type="number" id="id" name="id" />
+        </p>
+        <p>
+            <label for="name">Nouveau nom</label>
+        </p>
+        <p>
+            <input type="text" id="name" name="name" />
+        </p>
+        <p>
+            <label for="desc">Nouvelle description</label>
+        </p>
+        <p>
+            <input type="text" id="desc" name="desc" size="100" />
+        </p>
+        <button type="submit" class="btn btn-primary active">Modifier</button>
+
+    </form>
+    </body>
+
+    </html>

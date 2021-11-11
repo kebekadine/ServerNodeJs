@@ -1,0 +1,16 @@
+<%- include('header'); -%>
+    <h1>
+        Suppression d'un client
+    </h1>
+    <form action="/deleteuser" method="POST">
+        <p>
+            <label for="ide">Identifiant du client à modifier</label>
+        </p>
+        <p>
+            <input type="number" id="id" name="id" min="1" />
+        </p>
+        <button type="submit" class="btn btn-primary active">Supprimer</button>
+    </form>
+    </body>
+
+    </html>

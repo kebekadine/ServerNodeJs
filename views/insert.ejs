@@ -1,0 +1,23 @@
+<%- include('header'); -%>
+    <div class="">
+        <h1>Formulaire d'ajout d'un client:</h1>
+        <form action="/addUser" method="POST">
+            <div class="mb-3">
+                <label for="name" class="form-label">Votre nom</label>
+            </div>
+            <div class="mb-3">
+                <input type="text" id="name" name="name" placeholder="Ex: kadine" required/>
+            </div>
+            <div class="mb-3">
+                <label for="desc" class="form-label">Votre description</label>
+            </div>
+            <div class="mb-3">
+                <input type="text" id="desc" name="desc" placeholder="Ex: Etudiante en Informatique" size="100" required />
+            </div>
+            <button type="submit" class="btn btn-primary active">Envoyer</button>
+
+        </form>
+    </div>
+    </body>
+
+    </html>

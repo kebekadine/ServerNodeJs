@@ -1,0 +1,24 @@
+<% if (message !=' '){%>
+    <% if (user == 0){%>
+        <script>
+            alert('Aucune mis à jour effectué');
+        </script>
+
+        <%} else {
+            if (message==='Modification'){%>
+
+            <script>
+                alert('Modification effectuée avec succès ');
+            </script>
+            <%}
+            else if (message=='Ajout'){%>
+                <script>
+                    alert('Ajout effectué avec succès ');
+                </script>
+                <%} else {%>
+                    <script>
+                        alert('Suppression effectuée avec succès ');
+                    </script>
+                    <%}%>
+                        <%}%>
+                            <%}%>
