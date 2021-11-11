@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `T_client_cli`
 --
 CREATE DATABASE BDD_NodeServer;
-
+Use BDD_NodeServer;
 CREATE TABLE T_client_cli (
   `cli_id` int(11) NOT NULL,
   `cli_name` varchar(64) NOT NULL,
