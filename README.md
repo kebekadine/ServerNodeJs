@@ -15,3 +15,18 @@ Projet d'implementation d'un serveur HTTP avec NodeJS, Express et une base de do
 6) Une fois la base de données ok, rendez vous sur votre editeur et ouvrez son terminal (N'oubliez pas de vous positionnez sur ServerNodeJs) et faites  npm init, npm i dotenv.
 
 7) enfin npm start et allez sur  votre navigateur et saisissez localhost:5000 et naviguez !
+
+
+# ParserFluxNode
+Script Nodejs qui parse le flux des articles d'un media et ecrit les données dans un fichier.csv
+
+# Installation 
+1- Faire un cd ParserNodeJs
+
+5- ouvrez le terminal de votre editeur et (n'oubliez pas de vous positionnez sur le dossier ParserFluxNode ) et faites un npm init taper sur la touche entrée jusqu'à la fin de l'installation, ensuite npm i rss-parser et appuyer sur entrée
+
+
+6) faites npm start, normalement un fichier nommé fichier.csv a été crée au même niveau que le fichier server.js.
+
+7) ouvrez le fichier et visualiser le resultat
+
