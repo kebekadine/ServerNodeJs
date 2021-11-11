@@ -4,7 +4,7 @@ const mysql = require('mysql');
 
 const connection = mysql.createConnection({
   host: process.env.HOST,
-  port: process.env.PORT,
+  port: 8889,
   user: 'root',
   password: 'root',
   database: 'BDD_NodeServer',
